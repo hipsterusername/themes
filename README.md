@@ -4,28 +4,24 @@ Start here if you're creating or iterating on a desktop theme for the Omarchy sy
 
 ## Where to Begin
 
-1. Read `CONTEXT.md` first. It defines a concise TASK for assistants and contributors and links all relevant guides.
-2. Use `color-theory.md` to build a palette (math-driven, accessible, and consistent).
-3. Follow `creating-themes.md` to implement the palette across applications.
+ Read `CONTEXT.md` first to understand the nature of the task and update it as you desire. 
 
-## Recommended Workflow
+ Then, follow the instructions below.
 
-1. Define intent: dark/light, mood, contrast requirements, and any wallpaper inspiration.
-2. Create a palette using a harmony (complementary, triadic, analogous, or monochrome) and set neutrals.
-3. Map palette to roles: Background, Foreground, Accent, Border, Selected, Inactive, plus Error/Warning/Success/Info.
-4. Implement per app using the app guides and `color-formats.md` for exact syntax.
-5. Validate contrast (target ≥ 4.5:1 for body text) and consistency across terminal, bar, notifications, launcher, OSD, monitor, WM, lock screen, editor, and icons.
-6. Optionally add `light.mode` if building a light theme variant.
+### IF USING A TERMINAL EDITOR
+1. Clone the repo to your local machine.
+2. Navigate up a level, and invoke your Terminal-based AI assistant (e.g., Claude Code, etc.)
+3. Instruct to review the CONTEXT.md file for its task, and provide instructions on the theme that you want to generate.
 
-## Quick Color Terminology (optional, memorable)
+### IF USING A CHAT GUI
+1. Provide the repo's files in a new Project, with the Project instructions to begin by reading CONTEXT.md. 
+2. When starting a new chat, give it the instructions for a new theme.
 
-- Hue: the color angle (0–360°). Choose a base hue first.
-- Saturation: color intensity (0–100%). Lower = more neutral.
-- Lightness: brightness (0–100%). Controls readability most.
-- Complement: base hue + 180°. High-contrast accent.
-- Triadic: base ±120°. Two balanced secondary accents.
-- Analogous: base ±30°. Smooth, harmonious neighbors.
-- Neutral: low-saturation tones for backgrounds and borders.
+
+## Recommended Theme Descriptions
+
+1. Define intent: the gist of the theme, dark/light, mood, contrast requirements, and any wallpaper inspiration. 
+2. (Optional) Provide guidance on palette colors using a harmony (complementary, triadic, analogous, or monochrome). See color-theory.md for additional color theory context. You can provide any amount of information here to guide it.
 
 ## Next Steps
 

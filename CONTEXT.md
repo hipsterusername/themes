@@ -10,15 +10,14 @@
   1. Define a palette from `color-theory.md`: pick a base hue and harmony (complementary, triadic, analogous, or monochrome); set neutrals; choose accent(s); target accessibility contrast.
   2. Map palette to semantic roles: Background, Foreground, Accent, Border, Selected, Inactive, plus semantic colors (Error, Warning, Success, Info).
   3. Apply colors per app using `creating-themes.md` and app guides, respecting `color-formats.md`. Keep accent consistent; avoid unrelated config changes.
-  4. Validate: contrast ratios, readability, and visual consistency across apps; include light mode via `light.mode` if requested.
+  4. Validate: contrast ratios, readability, and visual consistency across apps; include light mode via `light.mode` if appropriate.
 
 - Deliverables (when responding):
   - Palette spec: list each role with Hex and HSL and a 1-line rationale per key color.
-  - File edits: targeted color-only edits for the relevant files (`alacritty.toml`, `waybar.css`, `mako.ini`, `walker.css`, `swayosd.css`, `btop.theme`, `hyprland.conf`, `hyprlock.conf`, `neovim.lua`, `icons.theme`, `backgrounds/`).
-  - Validation notes: contrast checks and any follow-ups.
+  - File creation: Theme file creation for the relevant files (`alacritty.toml`, `waybar.css`, `mako.ini`, `walker.css`, `swayosd.css`, `btop.theme`, `hyprland.conf`, `hyprlock.conf`, `neovim.lua`, `icons.theme`, `backgrounds/`).
+  - Validation notes: Perform a review of all created files to confirm theme alignment, perform contrast checks, and any follow-ups.
 
 - Constraints:
-  - Use formats exactly as in `color-formats.md`. Keep a single accent family across apps.
   - Maintain accessibility (aim ≥ 4.5:1 for body text). Do not alter unrelated behavior.
 
 - Output structure:
