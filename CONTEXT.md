@@ -14,7 +14,7 @@
   5. Deploy: copy the full theme folder to the Config path for the current OS user.
      
      ```bash
-     cp -r /home/$(whoami)/PersonalRepos/omarchy/themes/your-theme-name /home/$(whoami)/.config/omarchy/themes/
+     cp -r ./your-new-theme-name/ /home/$(whoami)/.config/omarchy/themes/
      ```
 
 - Deliverables (when responding):
