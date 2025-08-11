@@ -25,6 +25,6 @@ Start here if you're creating or iterating on a desktop theme for the Omarchy sy
 
 ## Next Steps
 
-- Once a theme is generated, the last step is providing a Background Image. You can consider using images you find online, or if you have the hardware, run a local/open-source image generation tool like [Invoke](www.github.com/invoke-ai/invokeai)
+- Once a theme is generated, the last step is providing a Background Image. You can consider using images you find online, or if you have the hardware, run a local/open-source image generation tool like [Invoke](https://github.com/invoke-ai/invokeai)
 
 
