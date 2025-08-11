@@ -25,7 +25,6 @@ Start here if you're creating or iterating on a desktop theme for the Omarchy sy
 
 ## Next Steps
 
-- After palette selection, implement following `creating-themes.md` and validate against the checklist.
-- Keep edits focused on colors; avoid changing unrelated settings.
+- Once a theme is generated, the last step is providing a Background Image. You can consider using images you find online, or if you have the hardware, run a local/open-source image generation tool like [Invoke](github.com/invoke-ai/invokeai)
 
 
