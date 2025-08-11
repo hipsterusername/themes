@@ -11,6 +11,11 @@
   2. Map palette to semantic roles: Background, Foreground, Accent, Border, Selected, Inactive, plus semantic colors (Error, Warning, Success, Info).
   3. Apply colors per app using `creating-themes.md` and app guides, respecting `color-formats.md`. Keep accent consistent; avoid unrelated config changes.
   4. Validate: contrast ratios, readability, and visual consistency across apps; include light mode via `light.mode` if appropriate.
+  5. Deploy: copy the full theme folder to the Config path for the current OS user.
+     
+     ```bash
+     cp -r /home/$(whoami)/PersonalRepos/omarchy/themes/your-theme-name /home/$(whoami)/.config/omarchy/themes/
+     ```
 
 - Deliverables (when responding):
   - Palette spec: list each role with Hex and HSL and a 1-line rationale per key color.
